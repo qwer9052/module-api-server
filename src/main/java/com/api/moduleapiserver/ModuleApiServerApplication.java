@@ -1,4 +1,4 @@
-package com.example.moduleapiserver;
+package com.api.moduleapiserver;
 
 import com.example.modulecore.util.DateUtil;
 import com.example.modulecore.util.StringUtil;
