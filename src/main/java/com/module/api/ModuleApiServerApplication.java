@@ -1,7 +1,7 @@
 package com.module.api;
 
-import com.example.modulecore.util.DateUtil;
-import com.example.modulecore.util.StringUtil;
+import com.module.core.util.DateUtil;
+import com.module.core.util.StringUtil;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
@@ -10,8 +10,7 @@ public class ModuleApiServerApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(ModuleApiServerApplication.class, args);
-		StringUtil.test();
-
+		StringUtil.getSHA256("asdsad");
 		System.out.println(DateUtil.now());
 	}
 
